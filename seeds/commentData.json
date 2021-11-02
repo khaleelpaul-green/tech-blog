@@ -1,0 +1,38 @@
+[
+    {
+      "comment_content": "Wow this is my first comment",
+      "date_posted": "9/12/2021",
+      "commenter_id": 1,
+      "post_id": 1
+    },
+    {
+      "comment_content": "I never thought of that!",
+      "date_posted": "9/17/2021",
+      "commenter_id": 2,
+      "post_id": 2
+    },
+    {
+      "comment_content": "Is this really a tech blog?",
+      "date_posted": "9/23/2021",
+      "commenter_id": 3,
+      "post_id": 3
+    },
+    {
+      "comment_content": "Me too",
+      "date_posted": "9/30/2021",
+      "commenter_id": 3,
+      "post_id": 1
+    },
+    {
+      "comment_content": "Clever!",
+      "date_posted": "10/1/2021",
+      "commenter_id": 1,
+      "post_id": 2
+    },
+    {
+      "comment_content": "Are you serious?",
+      "date_posted": "9/29/2021",
+      "commenter_id":2,
+      "post_id": 3
+    }  
+]

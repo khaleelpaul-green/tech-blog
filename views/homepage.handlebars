@@ -1,0 +1,14 @@
+<!-- Loop over each object in the projects array -->
+{{#each posts as |post| }}
+<div class="card">
+  <div class="card-body ms-3">
+                
+    <h5 class="card-title text-light p-3 display-flex justify-space-between" style="background-color: rgb(87, 28, 28); text-decoration: none">
+      {{!-- add href to post so comments can be added --}}
+      <a href="/post/{{post.id}}">{{post.title}}</a>
+      <p class="justify-content-end font-weight-normal">Posted by {{user.name}} on {{format_date date_created}}</p>
+    </h5>
+    <p class="card-text ps-4">{{description}}</p>
+  </div>
+</div>
+{{/each}}

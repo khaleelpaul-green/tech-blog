@@ -1,0 +1,48 @@
+{{!-- post card --}}
+<div class="card">
+  <div class="card-body ms-3">
+                
+    <h5 class="card-title text-light p-3 display-flex justify-space-between" style="background-color: rgb(87, 28, 28);">
+      {{title}}
+      <p class="justify-content-end font-weight-normal">Posted by {{user.name}} on {{format_date date_created}}</p>
+    </h5>
+    <p class="card-text ps-4">{{description}}</p>
+  </div>
+</div>
+
+<h3>Comments:</h3>
+
+{{!-- comment card --}}
+{{#each comments as |comment| }}
+<div class="card">
+  <div class="card-body ms-3">
+                
+    <h5 class="card-title text-light p-3 display-flex justify-space-between" style="background-color: rgb(116, 85, 0);">
+      {{title}}
+      <p class="justify-content-end font-weight-normal">Posted by {{comment.commenter_id}} on {{format_date date_posted}}</p>
+    </h5>
+    <p class="card-text ps-4">{{comment_content}}</p>
+  </div>
+</div>
+{{/each}}
+
+{{!-- write a comment --}}
+  <div>
+    <form class="form new-comment-form">
+      <div class="form-group">
+        <label for="comment-desc">Your Comment:</label>
+        <textarea class="form-input" id="comment-desc" name="comment-desc" placeholder="Write comment here!"></textarea>
+      </div>
+      {{#if logged_in}}
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Post</button>
+      </div>
+      {{else}}
+      <a href="/login" class="btn btn-primary">LOGIN</a>
+      {{/if}}
+    </form>
+  </div>
+
+{{#if logged_in}}
+<script src="/js/comment.js"></script>
+{{/if}}

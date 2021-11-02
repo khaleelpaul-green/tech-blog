@@ -1,0 +1,18 @@
+<div class="card">
+    <div class="card-body ms-3">
+        <form class='form update-form'>
+            <div class="mb-3">
+                <label for="update-title" class="form-label">{{post.title}}</label>
+                <input type="text" class="form-control" id="update-title" aria-describedby="userNameHelp" value='{{post.title}}'>
+            </div>
+            <div class="mb-3">
+                <label for="update-content" class="form-label">{{post.description}}</label>
+                <textarea class="form-control" id="update-content">{{post.description}}
+                </textarea>
+                <button type="submit" class="btn btn-primary mt-2" data-id="{{post.id}}">UPDATE</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/js/update.js"></script>

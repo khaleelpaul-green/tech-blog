@@ -1,0 +1,20 @@
+[
+    {
+        "title": "My First Post",
+        "description": "this is my first post!",
+        "date_created": "9/10/2021",
+        "user_id": 1
+    },
+    {
+        "title": "Coding is Cool",
+        "description": "I like coding, it's cool!",
+        "date_created": "9/15/2021",
+        "user_id": 2
+    },
+    {
+        "title": "Why MVC is so important",
+        "description": "because it is.",
+        "date_created": "9/17/2021",
+        "user_id": 3
+    }
+]
