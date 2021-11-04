@@ -2,7 +2,7 @@
 
 ## Website
 
-Visit the deployed blog here: [The Tech Blog](https://thawing-anchorage-96948.herokuapp.com/)
+Visit the deployed blog [HERE](https://thawing-anchorage-96948.herokuapp.com/):
 
 ## Your Task
 
