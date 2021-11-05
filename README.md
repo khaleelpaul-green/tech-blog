@@ -1,5 +1,7 @@
 # 14 Model-View-Controller (MVC): Tech Blog
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ## Website
 
 Visit the deployed blog [HERE](https://thawing-anchorage-96948.herokuapp.com/):
